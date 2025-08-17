@@ -1095,6 +1095,8 @@ img {
   position: relative;
   display: flex;
   align-items: center;
+  margin-top: 30px;
+  padding-left: 30px;
 }
 
 .main-header .menu-right-content .search-box-outer{
