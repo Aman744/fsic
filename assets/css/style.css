@@ -1095,8 +1095,8 @@ img {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 30px;
   padding-left: 30px;
+  
 }
 
 .main-header .menu-right-content .search-box-outer{
@@ -1138,7 +1138,15 @@ img {
 
 
 /** main-menu **/
-
+.line{
+  content: '';
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  bottom: 0px;
+  background: rgba(0,0,0,0.1);
+  z-index: -1;
+}
 .main-menu{
   float: left;
 }
@@ -1954,8 +1962,7 @@ button.ltr {
   overflow: hidden;
   left: 0px;
   bottom: 0px;
-  min-height: 610px;
-  top: 60px;
+
 }
 
 .main-footer .bg-layer{
@@ -2201,7 +2208,8 @@ button.ltr {
 }
 
 .main-header.header-style-two{
-  top: 20px;
+  top: 0px;
+  background-color: white;
 }
 .main-header.header-style-one{
   background-color: white;
