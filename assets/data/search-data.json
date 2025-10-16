@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Home",
+    "url": "index.html",
+    "content": "Welcome to Indic Dialogue — rethinking Indian history."
+  },
+  {
+    "title": "About Us",
+    "url": "about.html",
+    "content": "Learn about our mission, team, and initiatives."
+  },
+  {
+    "title": "Events",
+    "url": "events.html",
+    "content": "Explore upcoming Indic Dialogue conferences and programs."
+  },
+  {
+    "title": "Contact",
+    "url": "contact.html",
+    "content": "Get in touch with us for collaborations and inquiries."
+  }
+]
