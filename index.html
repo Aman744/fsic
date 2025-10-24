@@ -38,6 +38,7 @@
     <!-- Favicon & Theme -->
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://fsic.in/" />
 
     <!-- Google Fonts -->
     <link
@@ -57,7 +58,7 @@
     <link href="./assets/css/switcher-style.css" rel="stylesheet">
     <link href="./assets/css/odometer.css" rel="stylesheet">
     <link href="./assets/css/rtl.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="preload" href="./assets/css/style.css" as="style" onload="this.rel='stylesheet'">
     <link href="./assets/css/module-css/banner.css" rel="stylesheet">
     <link href="./assets/css/module-css/clients.css" rel="stylesheet">
     <link href="./assets/css/module-css/about.css" rel="stylesheet">
@@ -251,6 +252,7 @@
             <section class="banner-style-two p_relative">
                 <div class="bg-layer" style="background-image: url(./assets/images/banner/banner-1.jpg);" role="img"
                     aria-label="Banner showing FSIC – Foundation for Study of Indian Culture, Bengaluru"></div>
+
                 <!-- <div class="bg-color"></div> -->
                 <!-- <div class="pattern-layer" style="background-image: url(./assets/images/shape/shape-11.png);"></div> -->
                 <div class="auto-container">
@@ -711,7 +713,7 @@
     <script src="./assets/js/odometer.js"></script>
 
     <!-- main-js -->
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js" defer></script>
 
 
 </body><!-- End of .page_wrapper -->
