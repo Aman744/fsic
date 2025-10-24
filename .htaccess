@@ -1,0 +1,4 @@
+# Redirect www to non-www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.fsic\.in [NC]
+RewriteRule ^(.*)$ https://fsic.in/$1 [L,R=301]
