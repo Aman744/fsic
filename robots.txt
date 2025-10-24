@@ -1,0 +1,18 @@
+# robots.txt for https://fsic.in/
+# Created: 24 Oct 2025
+
+User-agent: *
+Allow: /
+
+# Disallow unnecessary system or admin paths
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /search/
+
+# Sitemap location (important for indexing)
+Sitemap: https://fsic.in/sitemap.xml
+
+# Crawl delay (optional – for slower servers)
+# Crawl-delay: 10
