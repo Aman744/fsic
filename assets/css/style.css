@@ -2498,7 +2498,26 @@ button.ltr {
 }
 
 
-
+#gs_tti50 input {
+    background: none !important;
+    padding: 15px !important;
+}
+.gsc-search-button-v2 {
+    font-size: 0px;
+    padding: 20px 35px !important;
+    width: auto;
+    vertical-align: middle;
+    border: 1px solid #666;
+    border-radius: 2px;
+    border-color: #7d2b1e !important;
+    background-color: #7d2b1e !important;
+    background-image: linear-gradient(top, #4d90fe, #4787ed);
+}
+.gsc-search-button-v2 svg {
+    fill: #fff;
+    width: 20px !important;
+    height: 20px !important;
+}
 
 
 
