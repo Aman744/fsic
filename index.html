@@ -75,6 +75,7 @@
     <link href="./assets/css/module-css/faq.css" rel="stylesheet">
     <link href="./assets/css/module-css/cta.css" rel="stylesheet">
     <link href="./assets/css/responsive.css" rel="stylesheet">
+    <link href="./assets/css/popup.css" rel="stylesheet">
 </head>
 
 
@@ -275,6 +276,35 @@
                 </div>
             </section>
             <!-- banner-style-two end -->
+            <section class="about-style-two" style="background-color: #f09c19;">
+                <div class="full-container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-sm-12 content-column" style="
+    padding: 0px 0px 0px 65px;
+">
+                            <h3 class="pt_20 pb_20 upcoming-events">Upcoming Events</h3>
+                        </div>
+                        <div class="col-lg-10 col-md-12 col-sm-12 content-column">
+                            <marquee class="pt_25 pb_20">
+                                <a href="./assets/images/event-images/online-workshop.jpg" class="popup-link">
+                                    1. Online workshop – Making sense of the world around us, 22nd Nov. 2025 4PM to 5PM
+                                </a> |
+                                <a href="./assets/images/event-images/ksn-Lit-fest.jpg" class="popup-link">
+                                    2. KSN Lit Fest – History, Itihaasa, Myth, 15th Nov, 2025 10AM to 4PM
+                                </a>
+                            </marquee>
+                            <!-- Popup container -->
+                            <div class="popup-overlay" id="popup">
+                                <span class="close-popup" id="closeBtn">&times;</span>
+                                <img id="popupImage" src="" alt="Event Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
             <!-- about-style-two -->
             <section class="about-style-two pt_120 pb_120">
                 <div class="pattern-layer">
@@ -313,9 +343,11 @@
                                 <div class="image-inner">
                                     <div class="image-shape">
                                         <div class="shape-1"
-                                            style="background-image: url(./assets/images/shape/shape-12.png);"></div>
+                                            style="background-image: url(./assets/images/shape/shape-12.png);">
+                                        </div>
                                         <div class="shape-2"
-                                            style="background-image: url(./assets/images/shape/shape-12.png);"></div>
+                                            style="background-image: url(./assets/images/shape/shape-12.png);">
+                                        </div>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -503,7 +535,8 @@
                                 <div class="working-block-two">
                                     <div class="inner-box">
                                         <div class="shape"
-                                            style="background-image: url(./assets/images/shape/shape-16.png);"></div>
+                                            style="background-image: url(./assets/images/shape/shape-16.png);">
+                                        </div>
                                         <div class="icon-box">
                                             <div class="r-hex">
                                                 <div class="r-hex-inner"></div>
@@ -519,7 +552,8 @@
                                 <div class="working-block-two">
                                     <div class="inner-box">
                                         <div class="shape"
-                                            style="background-image: url(./assets/images/shape/shape-16.png);"></div>
+                                            style="background-image: url(./assets/images/shape/shape-16.png);">
+                                        </div>
                                         <div class="icon-box">
                                             <div class="r-hex">
                                                 <div class="r-hex-inner"></div>
@@ -718,6 +752,7 @@
     <script src="./assets/js/ScrollTrigger.js"></script>
     <script src="./assets/js/SplitText.js"></script>
     <script src="./assets/js/odometer.js"></script>
+    <script src="./assets/js/popup.js"></script>
 
     <!-- main-js -->
     <script src="./assets/js/script.js" defer></script>
